@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .product-drop {
+            background-color: #EFEFEF;
+        }
+
+        .product-drop-img {
+            background-image: url('https://www.parallelwireless.com/wp-content/uploads/megamenu-1.jpg');
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        .product-drop-img a i {
+            font-weight: 900;
+        }
+
+        .drop-list li a {
+            color: black;
+        }
+
+        .drop-list li a:hover {
+            color: orange;
+        }
+
+        .dropdown-menu {
+            /* padding-top: 40px transparent; */
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 200px;
+            min-width: 160px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            z-index: 10;
+            transition: all ease-in-out 0.3s;
+        }
+
+        .dropdown-menu li {
+            display: block;
+            padding: 8px 16px;
+            color: black;
+            text-decoration: none;
+            transition: all ease-in-out 0.3s;
+        }
+
+        .dropdown-menu li:hover {
+            /* background-color: white; */
+            border-bottom: 0px solid transparent;
+        }
+
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+        .active {
+            color: orangered;
+            text-decoration: dashed;
+            border-bottom: 2px solid orange;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <div class="dropdown"> -->
+    <div class="product-drop   w-full h-full">
+        <!-- 2 columns and image -->
+        <div class="grid grid-cols-2 gap-48 mx-8 py-8">
+            <div class="grid grid-cols-3 ">
+                <div class="border-r border-solid w-44">
+                    <h2 class="text-2xl font-bold hover:text-orange-500 hover:underline">Technologies</h2>
+                    <ul class="drop-list space-y-2 mt-4">
+                        <li><a href="#">5G</a></li>
+                        <li><a href="#">4G</a></li>
+                        <li><a href="#">3G</a></li>
+                        <li><a href="#">2G</a></li>
+                    </ul>
+                </div>
+                <div class="product-container">
+                    <h2 class="text-2xl w-full font-bold mb-4  hover:text-orange-500 hover:underline">Products</h2>
+                    <div class="grid grid-cols-3 gap-48">
+                        <div class="w-44">
+                            <h3 class="font-bold mb-2  hover:text-orange-500 hover:underline">ACCESS: OpenRAN</h3>
+                            <ul class="drop-list space-y-2">
+                                <li><a href="#">Software-defined Open vRAN</a></li>
+                                <li><a href="#">5G OpenRAN</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-44">
+                            <h3 class="font-bold  mb-2 hover:text-orange-500 hover:underline">Network Software</h3>
+                            <ul class="drop-list space-y-2 ">
+                                <li><a href="#">Interoperable <i class="fas fa-chevron-right text-sm"></i></a></li>
+                                <li><a href="#">Unified</a></li>
+                                <li><a href="#">Cloud-native</a></li>
+                                <li><a href="#">End-to-end</a></li>
+                                <li><a href="#">Performance</a></li>
+                                <li><a href="#">Multi-tenant and Sharing <i
+                                            class="fas fa-chevron-right text-sm"></i></a></li>
+                                <li><a href="#">Secure</a></li>
+                            </ul>
+                        </div>
+                        <div class="w-44">
+                            <h3 class="font-bold  mb-2 hover:text-orange-500 hover:underline">Network Intelligence</h3>
+                            <ul class="drop-list space-y-2">
+                                <li><a href="#">Analytics</a></li>
+                                <li><a href="#">Real-Time ALL G SON</a></li>
+                                <li><a href="#">Network Orchestrator</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="product-drop-img w-full h-full mt-6">
+                <p class=" m-8 text-4xl text-white">Visit our resources page to download collateral, watch customer
+                    testimonial, or get a spec sheet.</p>
+                <a href="#" class="font-bold text-white mx-8 text-xl hover:underline">RESOURCES <i
+                        class="fas fa-arrow-right text-xl font-bold"></i></a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

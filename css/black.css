@@ -1,0 +1,41 @@
+.group1 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/in-the-news.jpg');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+}
+
+.group2 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/upcomingevent-e1620925173854.png');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+}
+
+.group3 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/press-releases-sm.jpg');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+
+}
+
+.group4 {
+    background-image: url('https://www.parallelwireless.com/wp-content/uploads/ourawards.png');
+    background-position: relative;
+    /* margin-bottom: 40px; */
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 600px 350px;
+    aspect-ratio: 600 / 350;
+
+}

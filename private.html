@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/private.css" />
+  </head>
+
+  <body>
+    <nav class="px-20 py-8 shadow-md">
+      <img
+        src="https://www.parallelwireless.com/wp-content/uploads/parallel_wireless.svg"
+        alt="Logo"
+        class="logo mx-4"
+      />
+      <ul class="space-x-4 font-bold items-center">
+        <li class="active h-8 flex items-center justify-between">
+          <div class="dropdown">
+            <a href="solutions.html">Solutions</a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="urban.html" class="flex justify-start no-underline"
+                  >Urban</a
+                >
+              </li>
+              <li>
+                <a href="rural.html" class="flex justify-start no-underline"
+                  >Rural</a
+                >
+              </li>
+              <li>
+                <a href="private.html" class="flex justify-start no-underline"
+                  >Private LTE</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <div class="dropdown-mega">
+            <a href="product.html">Product & Terminologies</a>
+            <ul class="dropdown-mega-menu">
+              <div class="product-drop w-full h-full">
+                <!-- 2 columns and image -->
+                <div class="grid grid-cols-2 gap-48 mx-8 py-8">
+                  <div class="grid grid-cols-3">
+                    <div class="border-r border-solid w-44">
+                      <h2 class="text-2xl font-bold">
+                        <a
+                          href="#"
+                          class="text-black hover:text-orange-500 hover:underline"
+                        >
+                          Technologies
+                        </a>
+                      </h2>
+                      <ul class="block drop-list text-md mt-4">
+                        <li><a href="#">5G</a></li>
+                        <li><a href="#">4G</a></li>
+                        <li><a href="#">3G</a></li>
+                        <li><a href="#">2G</a></li>
+                      </ul>
+                    </div>
+                    <div class="product-container">
+                      <h2 class="text-2xl w-full font-bold mb-4">
+                        <a
+                          href="#"
+                          class="text-black hover:text-orange-500 hover:underline"
+                        >
+                          Products
+                        </a>
+                      </h2>
+                      <div class="grid grid-cols-3 gap-48">
+                        <div class="w-44">
+                          <h3 class="font-bold mb-2">
+                            <a
+                              href="#"
+                              class="text-black hover:text-orange-500 hover:underline"
+                            >
+                              ACCESS: OpenRAN
+                            </a>
+                          </h3>
+                          <ul class="block drop-list">
+                            <li><a href="#">Software-defined Open vRAN</a></li>
+                            <li><a href="#">5G OpenRAN</a></li>
+                          </ul>
+                        </div>
+                        <div class="w-44">
+                          <h3 class="font-bold mb-2">
+                            <a
+                              href="#"
+                              class="text-black hover:text-orange-500 hover:underline"
+                              >Network Software</a
+                            >
+                          </h3>
+                          <ul class="block drop-list">
+                            <li>
+                              <div class="sub-drop">
+                                <a href="#"
+                                  >Interoperable
+                                  <i class="fas fa-chevron-right text-sm"></i
+                                ></a>
+                                <ul class="sub-drop-menu">
+                                  <li>Open RAN Controller</li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a href="#">Unified</a></li>
+                            <li><a href="#">Cloud-native</a></li>
+                            <li><a href="#">End-to-end</a></li>
+                            <li><a href="#">Performance</a></li>
+                            <li>
+                              <div class="sub-drop">
+                                <a href="#"
+                                  >Multi-tenant and Sharing
+                                  <i class="fas fa-chevron-right text-sm"></i
+                                ></a>
+                                <ul class="sub-drop-menu">
+                                  <li>MOCN</li>
+                                  <li>MORAN</li>
+                                </ul>
+                              </div>
+                            </li>
+                            <li><a href="#">Secure</a></li>
+                          </ul>
+                        </div>
+                        <div class="w-44">
+                          <h3 class="font-bold mb-2">
+                            <a
+                              href="#"
+                              class="text-black hover:text-orange-500 hover:underline"
+                              >Network Intelligence</a
+                            >
+                          </h3>
+                          <ul class="block drop-list">
+                            <li><a href="#">Analytics</a></li>
+                            <li><a href="#">Real-Time ALL G SON</a></li>
+                            <li><a href="#">Network Orchestrator</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-drop-img w-full h-full mt-6">
+                    <p class="m-8 text-4xl text-white">
+                      Visit our resources page to download collateral, watch
+                      customer testimonial, or get a spec sheet.
+                    </p>
+                    <a
+                      href="#"
+                      class="font-bold text-white mx-8 text-xl hover:underline"
+                      >RESOURCES
+                      <i class="fas fa-arrow-right text-xl font-bold"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <a href="customers.html">Customers</a>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <div class="dropdown">
+            <a href="comapny.html">Company</a>
+            <ul class="dropdown-menu">
+              <li class="h-8 w-full flex items-center justify-between">
+                <div class="sub-dropdown">
+                  <a
+                    href="who_we_are.html"
+                    class="flex justify-start no-underline"
+                    >Who we are
+                    <i class="fas fa-chevron-right ml-16 flex items-center"></i
+                  ></a>
+                  <ul class="sub-dropdown-menu">
+                    <li class="h-8 flex items-center justify-between">
+                      <a href="#">Mission and Vision</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="h-8 flex items-center justify-between">
+                <div class="sub-dropdown">
+                  <a href="news.html" class="flex justify-start no-underline"
+                    >News
+                    <i class="fas fa-chevron-right ml-28 flex items-center"></i
+                  ></a>
+                  <ul class="sub-dropdown-menu">
+                    <li class="h-8 flex items-center justify-between">
+                      <a href="#">Press Releases</a>
+                    </li>
+                    <li class="h-8 flex items-center justify-between">
+                      <a href="#">News Coverage</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="h-8 flex items-center justify-between">
+                <a
+                  href="leadership.html"
+                  class="flex justify-start no-underline"
+                  >Leadership</a
+                >
+              </li>
+              <li class="h-8 flex items-center justify-between">
+                <a href="awards.html" class="flex justify-start no-underline"
+                  >Awards</a
+                >
+              </li>
+              <li class="h-8 flex items-center justify-between">
+                <div class="sub-dropdown">
+                  <a href="contact.html" class="flex justify-start no-underline"
+                    >Contact
+                    <i class="fas fa-chevron-right ml-24 flex items-center"></i
+                  ></a>
+                  <ul class="sub-dropdown-menu">
+                    <li><a href="#">Support</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="h-8 flex items-center justify-between">
+                <a href="partner.html" class="flex justify-start no-underline"
+                  >Partners</a
+                >
+              </li>
+              <li class="h-8 flex items-center justify-between">
+                <a href="legal.html" class="flex justify-start no-underline"
+                  >Legal</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <a href="careers.html">Careers</a>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <a href="resources.html">Resources</a>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <i class="fas fa-search"></i>
+        </li>
+        <li class="h-8 flex items-center justify-between">
+          <a href="#"
+            ><button
+              class="border border-red-600 border-solid rounded-lg p-2 px-4"
+            >
+              CONTACT US
+            </button></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <div class="hero-container">
+        <h1
+          class="solution-content text-7xl text-black text-center flex justify-center mx-auto pb-2 bg-white"
+        >
+          Private LTE
+        </h1>
+        <div class="hero-content bg-white">
+          <ul class="hero-nav flex justify-center">
+            <li
+              class="bg-transparent text-sm m-0 hover:bg-orange-600 hover:text-white h-full py-4 px-3"
+            >
+              <a href="urban.html">URBAN</a>
+            </li>
+            <li
+              class="bg-transparent text-sm m-0 hover:bg-orange-600 hover:text-white h-full py-4 px-3"
+            >
+              <a href="rural.html">RURAL</a>
+            </li>
+            <li
+              class="active-hero bg-transparent text-sm m-0 hover:bg-orange-600 hover:text-white h-full py-4 px-3"
+            >
+              <a href="private.html">PRIVATE LTE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="hero-text-content my-14 mx-44">
+        <p class="text-xl text-center mx-24">
+          Parallel Wireless Private LTE solution provides global mobile
+          operators with a new revenue generating opportunity for private and
+          public enterprises in search to replace their legacy, hardware-centric
+          networks with cloud-native, easy to deploy and maintain 4G/LTE
+          solution. Parallel Wireless Private LTE network solution provides
+          secure and reliable connectivity that covers every inch of operations,
+          for humans and machines (IoT) and software-upgradable to 5G.
+          Applicable for all industries, it provides the secure, reliable,
+          flexible and cost-effective wireless connectivity that business- and
+          mission-critical applications demand.
+        </p>
+      </div>
+    </section>
+
+    <section class="private-features mx-16">
+      <h1 class="text-3xl font-bold mb-4">Features and Capabilities</h1>
+      <div
+        class="flex flex-col lg:flex-row items-start lg:items-center lg:justify-between p-4 bg-white"
+      >
+        <div class="flex-1 text-xl">
+          <p class="mb-4">
+            Parallel Wireless Private LTE is a converged, service-aware,
+            mission-critical end-to-end architecture to deliver autonomy,
+            efficiency and staff safety. Components include:
+          </p>
+          <ul class="list-disc pl-5 mb-4">
+            <li>
+              A complete end-to-end LTE wireless broadband network — radio
+              access (i.e. vessel, rig, platform, indoor, M2M),
+            </li>
+            <li>Backhaul for transport, core, devices and management</li>
+          </ul>
+          <p class="mb-4">
+            The components leverage the most advanced radio access technologies,
+            including small cells and macro cells for maximum coverage and
+            capacity to reach remote systems, vessels and enable safety for
+            personnel.
+            <br /><br />
+            A common communications management system for the radio access
+            network, backhaul and core along with lifecycle device management
+            simplifies and reduces operating expenses while being interoperable
+            with existing infrastructure.
+          </p>
+          <div class="info-button mt-8">
+            <a href="#"
+              ><button
+                class="border border-red-600 border-solid rounded-lg p-2 px-4"
+              >
+                VIEW FULL INFOGRAPHIC
+              </button></a
+            >
+          </div>
+          <div class="mt-8 text-orange-600 font-bold">
+            <a href="#"
+              >LEARN MORE&nbsp; <i class="fas fa-cloud-download-alt"></i
+            ></a>
+          </div>
+        </div>
+        <div class="flex-1 mt-0 lg:mt-0">
+          <img
+            src="https://www.parallelwireless.com/wp-content/uploads/lte-for-mining-preview-585x415.jpg"
+            alt="Network Infrastructure"
+            class="w-full h-500"
+            width="500"
+            height="300"
+            style="aspect-ratio: 550 / 400; object-fit: contain"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="deploy mx-16 mt-9">
+      <h1 class="text-3xl font-bold mb-4">Deployment Options</h1>
+      <p class="mb-4 text-xl">
+        The same solution can be deployed in both outdoor (fixed and in-vehicle)
+        and indoor scenarios for specialized enterprise use cases:
+      </p>
+      <div class="ml-4 text-xl">
+        <ul class="list-disc">
+          <li>
+            Manufacturing and warehouses: Private LTE puts a manufacturing
+            site’s network on a different frequency so robotic and IoT devices
+            don’t have to compete for coverage. With priority and pre-emption,
+            Parallel Wireless solution also can provide a higher quality of
+            service for particular devices or voice traffic.
+          </li>
+          <li>Mining</li>
+          <li>
+            Oil and Gas: Wi-Fi isn’t a robust or secure option to meet network
+            needs, yet provisioning wires in remote locations or moving boats
+            and motherships is challenging. With Parallel Wireless Private LTE
+            as the primary WAN and satellite as the backhaul, the oil and gas
+            industries have a secure LTE network that can keep everything and
+            everyone connected, regardless of location. SON will assist with
+            plug-n-play configuration and on-going hands free optimization while
+            providing seamless mobility between boats and other moving vehicles.
+          </li>
+          <li>Campuses: Colleges, financial institutes and hospitals</li>
+        </ul>
+      </div>
+      <div class="text-xl mt-9">
+        <p class="mb-4 text-xl">
+          The deployments are flexible: the system can be deployed locally or in
+          the cloud.
+        </p>
+        <p class="mb-4 text-xl">
+          The following services/features are provided by this solution:
+        </p>
+        <div class="ml-4 text-xl">
+          <ul class="list-disc">
+            <li>Enables a variety of voice options (VoLTE, VoWiFi)</li>
+            <li>Interops with existing LMR/PMR or Wi-Fi networks</li>
+            <li>
+              PTT (Push To Talk) that can integrate with DMR voice channels
+            </li>
+            <li>
+              Staff can now carry an LTE handset rather than a legacy DMR
+              handset
+            </li>
+            <li>
+              M2M for pump, vessel health monitoring, easy vessel management,
+              team tracking, etc.
+            </li>
+            <li>Web browsing</li>
+            <li>Localization of 4G calls</li>
+            <li>Location based services</li>
+            <li>LMR/PMR and LTE interoperability</li>
+            <li>Dispatching</li>
+            <li>Multimedia streaming and sharing (video, picture, text)</li>
+            <li>
+              Dual-band handsets could allow roaming onto consumer LTE networks
+            </li>
+            <li>The solution will provide flexibility and elastic network:</li>
+            <li>
+              In case of link failure to the cellular operator, the LTE circle
+              will remain and provides all the above services locally
+            </li>
+            <li>
+              In case of emergency (such as backhaul loss, team trapped, etc.)
+              PTT is available
+            </li>
+            <li>
+              Easily movable/portable above ground towers when blasting; easy to
+              re-deploy
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="img-grid-box mt-8">
+      <div class="relative flex items-center pb-8">
+        <img
+          src="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"
+          alt="Optus Case Study"
+          class="w-full h-500"
+          width="1897"
+          height="685"
+          style="aspect-ratio: 1897 / 685; object-fit: cover"
+        />
+        <div
+          class="absolute top-0 left-0 w-full h-full bg-black opacity-30"
+        ></div>
+        <div
+          class="optus absolute mt-16 ml-8 w-auto h-1/2 items-center flex flex-col justify-center px-1 md:px-1"
+        >
+          <div class="ml-16 mr-14">
+            <h1 class="text-white text-5xl font-bold mb-4">
+              Emergency Network in the <br />
+              UK Case Study
+            </h1>
+            <p class="text-white text-xl mb-6">
+              Learn how Parallel Wireless Private LTE <br />
+              solution enabled secure 4G coverage for <br />
+              first responders in the UK.
+            </p>
+            <button
+              class="justify-center whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-orange-600 hover:bg-white hover:text-orange-600 transition-all duration-3000 ease-in-out text-white font-bold py-2 px-4 rounded-xl inline-flex items-center"
+            >
+              <span>Download Now &nbsp;</span
+              ><i class="fas fa-cloud-download-alt text-md"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products">
+      <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <h2 class="text-center text-5xl text-gray-900">
+          Related <strong>Products & Technologies</strong>
+        </h2>
+
+        <div
+          class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-14"
+        >
+          <div class="cards-content bg-white rounded-lg shadow-md mb-4">
+            <img
+              src="https://www.parallelwireless.com/wp-content/uploads/product-4.jpg"
+              alt="Mountain with person using laptop"
+              class="rounded-md mb-4"
+              width="100%"
+              height="200"
+              style="aspect-ratio: 350 / 200; object-fit: cover"
+            />
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-4">Outdoor OpenRAN</h2>
+              <p class="text-gray-700 text-lg">
+                Our fully orchestrated OpenRAN hardware consists of macros,
+                outdoor and indoor small cells, and Massive MIMOs that are all
+                Software Defined Radios (SDRs) and can be software upgraded to
+                5G for ease of deployment and much lower cost.
+              </p>
+              <button
+                class="mt-4 px-4 py-2 bg-orange-600 text-white rounded-lg"
+              >
+                LEARN MORE <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="cards-content bg-white rounded-lg shadow-md mb-4">
+            <img
+              src="https://www.parallelwireless.com/wp-content/uploads/product-1.png"
+              alt="Mountain with person using laptop"
+              class="rounded-md mb-4"
+              width="100%"
+              height="200"
+              style="aspect-ratio: 350 / 200; object-fit: cover"
+            />
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-4">5G OpenRAN</h2>
+              <p class="text-gray-700 text-lg">
+                Our cloud-native OpenRAN approach enables any 5G migration
+                option and is software upgradable to any future 3GPP releases
+                delivering most cost-effective and advanced 5G capabilities to
+                mobile operators and industries.
+              </p>
+              <br />
+              <button
+                class="mt-4 px-4 py-2 bg-orange-600 text-white rounded-lg"
+              >
+                LEARN MORE <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+          <div class="cards-content bg-white rounded-lg shadow-md mb-4">
+            <img
+              src="https://www.parallelwireless.com/wp-content/uploads/product-2.png"
+              alt="Mountain with person using laptop"
+              class="rounded-md mb-4"
+              width="100%"
+              height="200"
+              style="aspect-ratio: 350 / 200; object-fit: cover"
+            />
+            <div class="p-6">
+              <h2 class="text-2xl font-semibold mb-2">Real-time ALL G SON</h2>
+              <p class="text-gray-700 text-lg">
+                Parallel Wireless 5G 4G 3G 2G and Wi-Fi SON software module
+                makes networks automated with self-configuration and
+                self-optimization to deliver plug-n-play deployments and
+                hands-free maintenance for much lower overall TCO.
+              </p>
+              <button
+                class="mt-4 px-4 py-2 bg-orange-600 text-white rounded-lg"
+              >
+                LEARN MORE <i class="fas fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-fixed bg-center bg-cover py-8 z-lg">
+      <div class="max-w-6xl mx-auto px-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="md:col-span-1">
+            <img
+              src="https://www.parallelwireless.com/wp-content/uploads/brand-paralell-wireless.svg"
+              alt="Logo"
+              class="w-1/2 md:mb-14"
+            />
+            <h4 class="font-bold text-lg text-center md:text-left mb-4">
+              Follow Us
+            </h4>
+            <div class="flex justify-center md:justify-start space-x-4">
+              <a href="#"
+                ><i class="fa-brands fa-x-twitter text-xl text-orange-600"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-linkedin-in text-xl text-orange-600"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-facebook-f text-xl text-orange-600"></i
+              ></a>
+              <a href="#"
+                ><i class="fa-brands fa-youtube text-xl text-orange-600"></i
+              ></a>
+            </div>
+          </div>
+          <div class="md:col-span-1">
+            <h4
+              class="font-bold text-lg text-center md:text-left mb-4 border-b border-black"
+            >
+              IMPORTANT LINKS
+            </h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <ul class="imp-link space-y-2">
+                  <li><a href="#" rel="ugc">Resources</a></li>
+                  <li><a href="#" rel="ugc">Leadership</a></li>
+                  <li><a href="#" rel="ugc">News</a></li>
+                  <li><a href="#" rel="ugc">Contact</a></li>
+                  <li><a href="#" rel="ugc">Careers</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul class="imp-link space-y-2">
+                  <li><a href="#" rel="ugc">About Us</a></li>
+                  <li>
+                    <a href="#" rel="ugc" class="active-footer">Solutions</a>
+                  </li>
+                  <li><a href="#" rel="ugc">Technologies</a></li>
+                  <li><a href="#" rel="ugc">Products</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="md:col-span-1">
+            <h4
+              class="font-bold text-lg text-center md:text-left mb-4 border-b border-black"
+            >
+              CONTACT US
+            </h4>
+            <div class="space-y-2">
+              <p class="flex justify-center md:justify-start gap-4">
+                <img
+                  src="https://www.parallelwireless.com/wp-content/uploads/headphone.svg"
+                  class="w-6"
+                  alt="headset"
+                />
+                1-603-589-9937
+              </p>
+              <p class="flex justify-center md:justify-start gap-4">
+                <img
+                  src="https://www.parallelwireless.com/wp-content/uploads/location.svg"
+                  class="w-5"
+                  alt=""
+                />
+                300 Innovative Way, Suite #2310 Nashua, NH 03062, USA
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-200 mt-8 pt-8 text-sm text-gray-600">
+          <div class="flex justify-between items-center flex-col md:flex-row">
+            <span class="mb-4 md:mb-0"
+              >© 2024 Parallel Wireless. All rights reserved.</span
+            >
+            <div class="flex space-x-4">
+              <a href="#" rel="ugc">Privacy Policy</a>
+              <span>|</span>
+              <a href="#" rel="ugc">Legal</a>
+              <span>|</span>
+              <a href="#" rel="ugc">Cookies</a>
+              <span>|</span>
+              <a href="#">Terms of Use</a>
+              <span>|</span>
+              <a href="#">Trademarks</a>
+              <span>|</span>
+              <a href="#">PO Terms &amp;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
